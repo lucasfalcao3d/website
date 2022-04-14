@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://lucasfalcao3d.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://lucasfalcao3d.com/" rel="alternate" type="text/html" /><updated>2022-04-14T13:24:07-03:00</updated><id>https://lucasfalcao3d.com/feed.xml</id><title type="html">Lucas Falcao, 3d Artist</title><author><name>Lucas Falcao</name></author><entry><title type="html">A More Efficient Keymap for Modeling</title><link href="https://lucasfalcao3d.com/blog/blender-keymap/" rel="alternate" type="text/html" title="A More Efficient Keymap for Modeling" /><published>2020-12-19T00:00:00-03:00</published><updated>2020-12-19T00:00:00-03:00</updated><id>https://lucasfalcao3d.com/blog/blender-keymap</id><content type="html" xml:base="https://lucasfalcao3d.com/blog/blender-keymap/">&lt;p&gt;The main goal of this keymap change is to make Blender’s keymap even more consistent and efficient, specially for modelers, I’ve tried to change the shortcuts in a way that matches the action or the tool that I’m using.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve made a proposal at &lt;a href=&quot;https://blender.community/c/rightclickselect/8wgbbc/#5f4de28a9c122174c9a545d5&quot; target=&quot;\_blank&quot;&gt;Right Click Select&lt;/a&gt; some time ago with some of these shortcuts that I think would be easier for everyone to memorize, but here I change shortcuts that I know that won’t fit every user.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;disable&quot;&gt;Disable&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;First thing we need to disable some hotkeys that are not used very often by Modelers and we will replace with things used more often. I personally prefer use toolbar on the sides of the Viewport and use the space bar for other shortcut, but feel free to keep it at spacebar if you prefer.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;To disable the Keymap, just uncheck the box on the left.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Play Animation = Space&lt;/li&gt;
+  &lt;li&gt;Hide Collection = 1, 2, 3, …&lt;/li&gt;
+  &lt;li&gt;View Online Manual = Disable&lt;/li&gt;
+  &lt;li&gt;Toolbar = Shift + Space&lt;/li&gt;
+  &lt;li&gt;Set Tool By Name = W&lt;/li&gt;
+  &lt;li&gt;Fallback Tool Pie Menu = Alt + W&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;viewport&quot;&gt;Viewport&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here in the 3D Viewport I’ve tried to put some hotkeys that are very often used for modeling, more closer to the left side of the keyboard and the left hand. Mostly already are on the left side actually, but Frame Selected and Local View that are very often used by modelers are placed on the Numpad. This way you can always keep your hand on your tablet or mouse.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;And I also like to use the Toolbar on the right side of the viewport and the Sidebar no the left, for me as a right-handed I feel more natural to make a movement with my arm to the right side to reach the Toolbar, that I use more often than the Sidebar.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;justify-content&quot;&gt;
+
+  &lt;div&gt;
+    &lt;picture&gt;
+      &lt;source srcset=&quot;/images/blog-2020/blender-keymap-02.webp&quot; type=&quot;image/webp&quot; /&gt;
+      &lt;img src=&quot;/images/blog-2020/blender-keymap-02.jpg&quot; alt=&quot;3d render of a cartoon crab&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Frame Selected = W&lt;/li&gt;
+  &lt;li&gt;Local View = Alt+W&lt;/li&gt;
+  &lt;li&gt;3D View &amp;gt; View = Alt + Middle Click &lt;span style=&quot;color:#9970b8 &quot;&gt; Pie menu for views &lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;Perspective/Orthographic = V&lt;/li&gt;
+  &lt;li&gt;Convert to Menu = C (object.convert) &lt;span style=&quot;color:#9970b8 &quot;&gt;Add it on Object Mode Category &lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;Flip Region = F11 (screen.region_flip) &lt;span style=&quot;color:#9970b8 &quot;&gt;Add it on Object Mode Category &lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;editor-type&quot;&gt;Editor Type&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I like to customize from F5 to F8 with the Editor Types that I use most, for fast adjust and customize the workspace.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;3D View = F5&lt;/li&gt;
+  &lt;li&gt;Outliner = F6&lt;/li&gt;
+  &lt;li&gt;UV/Image Editor = F7&lt;/li&gt;
+  &lt;li&gt;Shader Editor = F8&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;edit-mode&quot;&gt;Edit Mode&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;In Edit Mode I’ve tried to make the shortcuts more simple, some of then need to hit a combination of Ctrl plus the key, but in some cases that key doesn’t have any operation assigned. So why not make it simple and just hit that one key?&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Subdivide = D&lt;/li&gt;
+  &lt;li&gt;Grid Fill = Ctrl + G&lt;/li&gt;
+  &lt;li&gt;Join = J ( Instead of Ctrl+JA)&lt;/li&gt;
+  &lt;li&gt;Separate = Alt + J&lt;/li&gt;
+  &lt;li&gt;Parent = P ( Instead of Ctrl+P)&lt;/li&gt;
+  &lt;li&gt;Redo Last = F1 ( Instead of View Online Manual, you can use the right click )&lt;/li&gt;
+  &lt;li&gt;Select More = +&lt;/li&gt;
+  &lt;li&gt;Select Less = -&lt;/li&gt;
+  &lt;li&gt;Make Links = L ( Instead of Ctrl+L)&lt;/li&gt;
+  &lt;li&gt;Show Gizmo = Shift + Space&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you wanna try this Keymap changes I recommend to change it manually, this way you will already memorize it better. Or you can download the keymap file bellow.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i class=&quot;fas fa-file-download&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.dropbox.com/s/nam268ueta05fka/keymap-lucas.py?dl=1&quot;&gt;Keymap&lt;/a&gt;&lt;/p&gt;</content><author><name>Lucas Falcao</name></author><summary type="html">The main goal of this keymap change is to make Blender’s keymap even more consistent and efficient, specially for modelers, I’ve tried to change the shortcuts in a way that matches the action or the tool that I’m using.</summary></entry><entry><title type="html">Snowbuddy</title><link href="https://lucasfalcao3d.com/blog/snowbuddy/" rel="alternate" type="text/html" title="Snowbuddy" /><published>2020-12-11T00:00:00-03:00</published><updated>2020-12-11T00:00:00-03:00</updated><id>https://lucasfalcao3d.com/blog/snowbuddy</id><content type="html" xml:base="https://lucasfalcao3d.com/blog/snowbuddy/">&lt;p&gt;Hey there, just a small post about a very cool project from my friends at Estudio Pé Grande, I’ve made a contribution modeling and doing the UVs of the snowbuddy character and his sled.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;justify-content&quot;&gt;
+
+  &lt;div&gt;
+    &lt;picture&gt;
+      &lt;source srcset=&quot;/images/blog-2020/snowbuddy-01.webp&quot; type=&quot;image/webp&quot; /&gt;
+      &lt;img src=&quot;/images/blog-2020/snowbuddy-01.jpg&quot; alt=&quot;3d render of a cartoon crab&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;justify-content&quot;&gt;
+
+  &lt;div&gt;
+    &lt;picture&gt;
+      &lt;source srcset=&quot;/images/blog-2020/snowbuddy-02.webp&quot; type=&quot;image/webp&quot; /&gt;
+      &lt;img src=&quot;/images/blog-2020/snowbuddy-02.jpg&quot; alt=&quot;3d render of a cartoon crab&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is a frame for you to see how incredible the project turn out and you can check out more and watch the animation at their &lt;a href=&quot;https://www.behance.net/gallery/106135257/CAMPBELLS&quot; target=&quot;\_blank&quot;&gt;Behance&lt;/a&gt; page.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;justify-content&quot;&gt;
+
+  &lt;div&gt;
+   &lt;a href=&quot;https://www.behance.net/gallery/106135257/CAMPBELLS&quot; target=&quot;_blank&quot;&gt;
+    &lt;picture&gt;
+      &lt;source srcset=&quot;/images/blog-2020/snowbuddy-03.webp&quot; type=&quot;image/webp&quot; /&gt;
+      &lt;img src=&quot;/images/blog-2020/snowbuddy-03.jpg&quot; alt=&quot;3d render of a cartoon crab&quot; /&gt;
+    &lt;/picture&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;</content><author><name>Lucas Falcao</name></author><summary type="html">Hey there, just a small post about a very cool project from my friends at Estudio Pé Grande, I’ve made a contribution modeling and doing the UVs of the snowbuddy character and his sled.</summary></entry><entry><title type="html">Crab Animation</title><link href="https://lucasfalcao3d.com/blog/crab-animation/" rel="alternate" type="text/html" title="Crab Animation" /><published>2020-12-05T00:00:00-03:00</published><updated>2020-12-05T00:00:00-03:00</updated><id>https://lucasfalcao3d.com/blog/crab-animation</id><content type="html" xml:base="https://lucasfalcao3d.com/blog/crab-animation/">&lt;p&gt;I’ve start working in a collaborative animation project and this little crab bellow that I’ve created it’s the main character. &lt;a href=&quot;https://twitter.com/RodrigoC4D/status/1334291166045626379&quot; target=&quot;\_blank&quot;&gt;Rodrigo&lt;/a&gt; it’s already doing some serious business with the rigging and &lt;a href=&quot;https://twitter.com/jonathansouzabr&quot; target=&quot;\_blank&quot;&gt;Jonathan&lt;/a&gt; it’s working on the script and will do the animation too.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;justify-content&quot;&gt;
+
+  &lt;div&gt;
+    &lt;picture&gt;
+      &lt;source srcset=&quot;/images/blog-2020/crab-01.webp&quot; type=&quot;image/webp&quot; /&gt;
+      &lt;img src=&quot;/images/blog-2020/crab-01.jpg&quot; alt=&quot;3d render of a cartoon crab&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;justify-content&quot;&gt;
+
+  &lt;div&gt;
+    &lt;picture&gt;
+      &lt;source srcset=&quot;/images/blog-2020/crab-02.webp&quot; type=&quot;image/webp&quot; /&gt;
+      &lt;img src=&quot;/images/blog-2020/crab-02.jpg&quot; alt=&quot;3d render of a cartoon crab&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;picture&gt;
+      &lt;source srcset=&quot;/images/blog-2020/crab-03.webp&quot; type=&quot;image/webp&quot; /&gt;
+      &lt;img src=&quot;/images/blog-2020/crab-03.jpg&quot; alt=&quot;3d render of a cartoon crab&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The approach that I’ve used for the look development it’s very similar with I’ve described in this other &lt;a href=&quot;/blog/the-versatility-of-vertex-paint/&quot; target=&quot;\_blank&quot;&gt;post&lt;/a&gt; and using a little bit of procedural texturing too.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;justify-content&quot;&gt;
+
+  &lt;div&gt;
+    &lt;picture&gt;
+      &lt;source srcset=&quot;/images/blog-2020/crab-04.webp&quot; type=&quot;image/webp&quot; /&gt;
+      &lt;img src=&quot;/images/blog-2020/crab-04.jpg&quot; alt=&quot;3d render of a cartoon crab&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;</content><author><name>Lucas Falcao</name></author><summary type="html">I’ve start working in a collaborative animation project and this little crab bellow that I’ve created it’s the main character. Rodrigo it’s already doing some serious business with the rigging and Jonathan it’s working on the script and will do the animation too.</summary></entry><entry><title type="html">The Versatility of Vertex Paint</title><link href="https://lucasfalcao3d.com/blog/the-versatility-of-vertex-paint/" rel="alternate" type="text/html" title="The Versatility of Vertex Paint" /><published>2020-10-09T00:00:00-03:00</published><updated>2020-10-09T00:00:00-03:00</updated><id>https://lucasfalcao3d.com/blog/the-versatility-of-vertex-paint</id><content type="html" xml:base="https://lucasfalcao3d.com/blog/the-versatility-of-vertex-paint/">&lt;p&gt;For quite some time I’ve been using Vertex Paint in probably all of my work, because it’s very handy and fast way to setup masks or basic colors, specially if you do stylized stuff. The only cons that comes to my mind is that you need your topology or vertex count to match what you want to do, but I usually don’t have any issues.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve made a post on &lt;a href=&quot;https://twitter.com/lucasfalcao3d/status/1314273019423006721&quot; target=&quot;\_blank&quot;&gt;Twitter&lt;/a&gt; to see how much people use Vertex Paint and apparently not so much people use it. So in this post I’ll show some ways that I’ve been using Vertex Paint on my work and maybe some of you will learn something new.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-use&quot;&gt;How to use&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;First let’s show how to use, because some of you may not know how to do it. When you select and object and enter in Vertex Paint mode, Blender creates a new Vertex Color channel with the name Col, that you can change to another name the represents what you are doing. You can find the Vertex Colors channels on the Object Data Properties. After enter the Vertex Paint mode you just need to paint on your model whatever you want to do, very handy isn’t?&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;justify-content&quot;&gt;
+
+  &lt;div&gt;
+    &lt;picture&gt;
+      &lt;source srcset=&quot;/images/blog-2020/vertex-paint-01.webp&quot; type=&quot;image/webp&quot; /&gt;
+      &lt;img src=&quot;/images/blog-2020/vertex-paint-01.jpg&quot; alt=&quot;3D Artist Magazine, Lucas Falcao Bee publication&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then to actully use it on your render, you need to add the Vertex Color channel on the Shader Editor, using the shortcut Shift+A &amp;gt; Input &amp;gt; Vertex Color.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;justify-content&quot;&gt;
+
+  &lt;div&gt;
+    &lt;picture&gt;
+      &lt;source srcset=&quot;/images/blog-2020/vertex-paint-02.webp&quot; type=&quot;image/webp&quot; /&gt;
+      &lt;img src=&quot;/images/blog-2020/vertex-paint-02.jpg&quot; alt=&quot;3D Artist Magazine, Lucas Falcao Bee publication&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;base-colors&quot;&gt;Base Colors&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The first way I wanna mention it’s for painting Base Colors, this works better if you have a more dense mesh, but it can also work with resonable low poly meshes. You can use the Blur brush to soften the colors or you can click on the Paint menu at the top of viewport and choose Smooth Vertex Colors. If you want a sharp interpolation on the colors, like I did on the eyes, you can make a selection in Edit Mode and then go back to Vertex Paint mode, click on the button Paint Mask and on the Paint menu choose Set Vertex Colors.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;justify-content&quot;&gt;
+
+  &lt;div&gt;
+    &lt;picture&gt;
+      &lt;source srcset=&quot;/images/blog-2020/vertex-paint-base-colors.webp&quot; type=&quot;image/webp&quot; /&gt;
+      &lt;img src=&quot;/images/blog-2020/vertex-paint-base-colors.jpg&quot; alt=&quot;3D Artist Magazine, Lucas Falcao Bee publication&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;masks&quot;&gt;Masks&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Another way that I use Vertex Paint is to create grayscale or RGB masks to blend or separate textures and shaders. To create a mask I usually make a selection in Edit Mode, back to Vertex Paint, enable the Paint Mask that I mentioned before and then I click on the Paint menu and choose Set Vertex Colors. And I usually use the Smooth Vertex Colors on the mask, this way I can use a ColorRamp on the Shader Editor and control there if I want a more sharpen mask or not.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;justify-content&quot;&gt;
+
+  &lt;div&gt;
+    &lt;picture&gt;
+      &lt;source srcset=&quot;/images/blog-2020/vertex-paint-mask.webp&quot; type=&quot;image/webp&quot; /&gt;
+      &lt;img src=&quot;/images/blog-2020/vertex-paint-mask.jpg&quot; alt=&quot;3D Artist Magazine, Lucas Falcao Bee publication&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;roughness&quot;&gt;Roughness&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you are a little bit lazy like me, you can even do a kind of Roughness map in just like one click. For that you need to enter in Vertex Paint mode, paint your model with a white color and then click on the Paint menu and choose Dirty Vertex Colors. In the Shader Editor you can use a ColorRamp to adjust the values and achive the Roughness result you want.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;justify-content&quot;&gt;
+
+  &lt;div&gt;
+    &lt;picture&gt;
+      &lt;source srcset=&quot;/images/blog-2020/vertex-paint-roughness.webp&quot; type=&quot;image/webp&quot; /&gt;
+      &lt;img src=&quot;/images/blog-2020/vertex-paint-roughness.jpg&quot; alt=&quot;3D Artist Magazine, Lucas Falcao Bee publication&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;subsurface&quot;&gt;Subsurface&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The last use that I wanna mention it’s to create a Subsurface Factor mask, this way you can control how much Subsurface you want for different parts, instead of choosing a single value for the entire model. I paint this mask in black and white values and then in the Shader Editor I plug it in a ColorRamp and tweak to values until I achieve the result I was looking for.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;justify-content&quot;&gt;
+
+  &lt;div&gt;
+    &lt;picture&gt;
+      &lt;source srcset=&quot;/images/blog-2020/vertex-paint-sss.webp&quot; type=&quot;image/webp&quot; /&gt;
+      &lt;img src=&quot;/images/blog-2020/vertex-paint-sss.jpg&quot; alt=&quot;3D Artist Magazine, Lucas Falcao Bee publication&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;These are very simple tips, I’ve never seen those uses of Vertex Paint on a tutorial on the internet, so I hope it helps some of you that are reading this to improve your work quality or at least get it done faster. These tips works even better if you mixing with procedural or tileable textures.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Anyway hope you enjoyed the tips and if you have any question feel free to leave me a message on &lt;a href=&quot;https://twitter.com/lucasfalcao3d&quot; target=&quot;\_blank&quot;&gt;Twitter&lt;/a&gt; or send me an &lt;a href=&quot;/contact&quot;&gt;Email&lt;/a&gt;.&lt;/p&gt;</content><author><name>Lucas Falcao</name></author><summary type="html">For quite some time I’ve been using Vertex Paint in probably all of my work, because it’s very handy and fast way to setup masks or basic colors, specially if you do stylized stuff. The only cons that comes to my mind is that you need your topology or vertex count to match what you want to do, but I usually don’t have any issues.</summary></entry><entry><title type="html">How I build this website</title><link href="https://lucasfalcao3d.com/blog/how-i-build-this-site/" rel="alternate" type="text/html" title="How I build this website" /><published>2020-08-30T00:00:00-03:00</published><updated>2020-08-30T00:00:00-03:00</updated><id>https://lucasfalcao3d.com/blog/how-i-build-this-site</id><content type="html" xml:base="https://lucasfalcao3d.com/blog/how-i-build-this-site/">&lt;p&gt;This post it’s not about actually how I built this site, but rather to recommend the same courses that I did, that made me able to build it. I went from basically zero knowledge about web development with a site done in less than two months. It’s a very simple site, but I build it with my own fingers using just &lt;a href=&quot;https://atom.io/&quot; target=&quot;\_blank&quot;&gt;Atom&lt;/a&gt; and &lt;a href=&quot;https://jekyllrb.com/&quot; target=&quot;\_blank&quot;&gt;Jekyll&lt;/a&gt;, I’m very proud of myself and now I’m feeling like a &lt;a href=&quot;https://i.imgur.com/jH1LRM0.jpeg&quot; target=&quot;\_blank&quot;&gt;hacker&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve made five courses at &lt;a href=&quot;https://www.learnenough.com/&quot; target=&quot;\_blank&quot;&gt;Learn Enough to Be Dangerous&lt;/a&gt;, all the courses are really great and teach you enough so you can have autonomy to start doing things by yourself.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Learn Enough &lt;a href=&quot;https://www.learnenough.com/command-line&quot; target=&quot;\_blank&quot;&gt;Command Line&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Learn Enough &lt;a href=&quot;https://www.learnenough.com/text-editor&quot; target=&quot;\_blank&quot;&gt;Text Editor&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Learn Enough &lt;a href=&quot;https://www.learnenough.com/git&quot; target=&quot;\_blank&quot;&gt;Git&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Learn Enough &lt;a href=&quot;https://www.learnenough.com/html&quot; target=&quot;\_blank&quot;&gt;HTML&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Learn Enough &lt;a href=&quot;https://www.learnenough.com/css-and-layout&quot; target=&quot;\_blank&quot;&gt;CSS &amp;amp; Layout&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;justify-content&quot;&gt;
+  &lt;div&gt;
+      &lt;a href=&quot;https://www.learnenough.com/command-line&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;
+        &lt;img width=&quot;175&quot; src=&quot;https://softcover.s3.amazonaws.com/636/learn_enough_command_line/images/cover-web.png&quot; alt=&quot;learn enough command line to be dangerous cover&quot; /&gt;
+      &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+      &lt;a href=&quot;https://www.learnenough.com/text-editor&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;
+        &lt;img width=&quot;175&quot; src=&quot;https://softcover.s3.amazonaws.com/636/learn_enough_text_editor/images/cover-web.png&quot; alt=&quot;learn enough text editor to be dangerous cover&quot; /&gt;
+      &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+      &lt;a href=&quot;https://www.learnenough.com/git&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;
+        &lt;img width=&quot;175&quot; src=&quot;https://softcover.s3.amazonaws.com/636/learn_enough_git/images/cover-web.png&quot; alt=&quot;learn enough git to be dangerous cover&quot; /&gt;
+      &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+      &lt;a href=&quot;https://www.learnenough.com/html&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;
+        &lt;img width=&quot;175&quot; src=&quot;https://softcover.s3.amazonaws.com/636/learn_enough_html/images/cover-web.png&quot; alt=&quot;learn enough html to be dangerous cover&quot; /&gt;
+      &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+      &lt;a href=&quot;https://www.learnenough.com/css-and-layout&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;
+        &lt;img width=&quot;175&quot; src=&quot;https://softcover.s3.amazonaws.com/636/learn_enough_css/images/cover-web.png&quot; alt=&quot;learn enough css to be dangerous cover&quot; /&gt;
+      &lt;/a&gt;
+  &lt;/div&gt;  
+&lt;/div&gt;</content><author><name>Lucas Falcao</name></author><summary type="html">This post it’s not about actually how I built this site, but rather to recommend the same courses that I did, that made me able to build it. I went from basically zero knowledge about web development with a site done in less than two months. It’s a very simple site, but I build it with my own fingers using just Atom and Jekyll, I’m very proud of myself and now I’m feeling like a hacker.</summary></entry><entry><title type="html">Auto Eye v03</title><link href="https://lucasfalcao3d.com/blog/auto-eye-v03/" rel="alternate" type="text/html" title="Auto Eye v03" /><published>2020-05-21T00:00:00-03:00</published><updated>2020-05-21T00:00:00-03:00</updated><id>https://lucasfalcao3d.com/blog/auto-eye-v03</id><content type="html" xml:base="https://lucasfalcao3d.com/blog/auto-eye-v03/">&lt;p&gt;The Auto Eye v03 are officially released!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here are some renders that I did for the new release. All rendered in Cycles, but it works on Eevee too.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;A lot of improvements were done to the add-on, texture/material improvements and improved baked, now you can bake color, specular, roughness and bump maps. This new version works on Blender 2.81, 2.82 and will be updated if needed for the next
+versions.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Check out one of the buttons bellow to see more about it.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;justify-content&quot;&gt;
+
+  &lt;div class=&quot;button&quot;&gt;
+    &lt;a href=&quot;https://www.blendermarket.com/products/auto-eye &quot;&gt;Blender Market&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;button&quot;&gt;
+    &lt;a href=&quot;https://gumroad.com/l/auto-eye&quot;&gt;
+      Gumroad&lt;/a&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;justify-content&quot;&gt;
+
+  &lt;div&gt;
+    &lt;picture&gt;
+      &lt;source srcset=&quot;/images/blog-2020/ae-realistic-face-v.webp&quot; type=&quot;image/webp&quot; /&gt;
+      &lt;img src=&quot;/images/blog-2020/ae-realistic-face-v.jpg&quot; alt=&quot;&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+
+  &lt;div&gt;
+    &lt;picture&gt;
+      &lt;source srcset=&quot;/images/blog-2020/ae-bee.webp&quot; type=&quot;image/webp&quot; /&gt;
+      &lt;img src=&quot;/images/blog-2020/ae-bee.jpg&quot; alt=&quot;&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+
+  &lt;div&gt;
+    &lt;picture&gt;
+      &lt;source srcset=&quot;/images/blog-2020/ae-cat-v.webp&quot; type=&quot;image/webp&quot; /&gt;
+      &lt;img src=&quot;/images/blog-2020/ae-cat-v.jpg&quot; alt=&quot;&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;</content><author><name>Lucas Falcao</name></author><summary type="html">The Auto Eye v03 are officially released!</summary></entry><entry><title type="html">Auto Eye New Bake</title><link href="https://lucasfalcao3d.com/blog/auto-eye-new-bake/" rel="alternate" type="text/html" title="Auto Eye New Bake" /><published>2020-03-28T00:00:00-03:00</published><updated>2020-03-28T00:00:00-03:00</updated><id>https://lucasfalcao3d.com/blog/auto-eye-new-bake</id><content type="html" xml:base="https://lucasfalcao3d.com/blog/auto-eye-new-bake/">&lt;p&gt;There is a new update of the Auto Eye available at &lt;a href=&quot;https://www.blendermarket.com/products/auto-eye&quot; target=&quot;\_blank&quot;&gt;Blender Market&lt;/a&gt; and &lt;a href=&quot;https://gumroad.com/l/auto-eye&quot; target=&quot;\_blank&quot;&gt;Gumroad&lt;/a&gt;, a new bake feature and other small improvements to improve texture and shader quality.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now you can bake all the maps used on the Auto Eye and use it on your favorite render or game engine. Here is the list of maps you can bake.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Color&lt;/li&gt;
+  &lt;li&gt;Specular&lt;/li&gt;
+  &lt;li&gt;Roughness&lt;/li&gt;
+  &lt;li&gt;Bump&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Also for that, I’ve also upload a zip file with 3 tutorials about the process of&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/UWyAn8lYyCY&quot;&gt;Bake maps&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/YiSWxuwmGuY&quot;&gt;Setup maps&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/6SRgVZAQDW0&quot;&gt;Setup materials&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;check-it-out-the-first-video-about-baking-the-maps-and-see-how-it-works&quot;&gt;Check it out the first video about baking the maps and see how it works.&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/UWyAn8lYyCY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Lucas Falcao</name></author><summary type="html">There is a new update of the Auto Eye available at Blender Market and Gumroad, a new bake feature and other small improvements to improve texture and shader quality.</summary></entry><entry><title type="html">My Linux Setup</title><link href="https://lucasfalcao3d.com/blog/my-linux-setup/" rel="alternate" type="text/html" title="My Linux Setup" /><published>2020-01-25T00:00:00-03:00</published><updated>2020-01-25T00:00:00-03:00</updated><id>https://lucasfalcao3d.com/blog/my-linux-setup</id><content type="html" xml:base="https://lucasfalcao3d.com/blog/my-linux-setup/">&lt;p&gt;After years using &lt;a href=&quot;https://ubuntu.com/&quot; target=&quot;\_blank&quot;&gt;Ubuntu&lt;/a&gt; I decided to try another Linux distro and after try a little bit some distros from the pen drive I thought I would like more the &lt;a href=&quot;https://linuxmint.com/&quot; target=&quot;\_blank&quot;&gt;Linux Mint with Cinnamon&lt;/a&gt;. I’ve been using it
+for almost a month now and I must say that I’m in love with Mint, the system is very simple and well polish in terms of interface and usability. It’s very customized out of the box and basically you can right click almost every place and configure
+the way you want.&lt;/p&gt;
+
+&lt;p&gt;So in this post I’ll share some tips and tools that I’ve been using on my daily work.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;justify-content&quot;&gt;
+
+  &lt;div&gt;
+    &lt;picture&gt;
+      &lt;source srcset=&quot;/images/blog-2020/my-linux-desktop.webp&quot; type=&quot;image/webp&quot; /&gt;
+      &lt;img src=&quot;/images/blog-2020/my-linux-desktop.jpg&quot; alt=&quot;My Desktop using Linux Mint&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;partitions&quot;&gt;Partitions&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;My install partitions are the following ones.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;/ – 40 GB&lt;/li&gt;
+  &lt;li&gt;/home – 190 GB&lt;/li&gt;
+  &lt;li&gt;Swap – 8 GB&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I used to use 25 GB for the root and usually is more than enough, but I had a problem with a cache folder that was setup in the tmp inside the root, the generated files in that cache filled the system partition, froze the computer and for some reason
+the booting stopped working. So after that I always use some extra space for the system partition.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;apps&quot;&gt;Apps&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is the list of apps that I’ve use almost everyday.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.blender.org/&quot; target=&quot;\_blank&quot;&gt;Blender&lt;/a&gt; – The most amazing 3D software of the world. :B&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.pureref.com/&quot; target=&quot;\_blank&quot;&gt;PureRef&lt;/a&gt; – Great to make reference boards.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.notion.so/&quot; target=&quot;\_blank&quot;&gt;Notion&lt;/a&gt; – Really great for management.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/phw/peek&quot; target=&quot;\_blank&quot;&gt;Peek&lt;/a&gt; – Good and simple app to record gifs and videos from your screen.&lt;/li&gt;
+  &lt;li&gt;GNOME Screenshot – This is just a default app that comes with Mint.&lt;/li&gt;
+  &lt;li&gt;Gnome Pomodoro – App for time management and productivity.&lt;/li&gt;
+  &lt;li&gt;WhatsApp – To spread fake news and cat gifs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;icons&quot;&gt;Icons&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;For the icons I choose the &lt;a href=&quot;https://github.com/PapirusDevelopmentTeam/papirus-icon-theme&quot; target=&quot;\_blank&quot;&gt;Papirus icon theme&lt;/a&gt;, because I like simple flat looking icons and there is icon for pretty much every application out there. You can also use this
+&lt;a href=&quot;https://github.com/PapirusDevelopmentTeam/papirus-folders&quot; target=&quot;\_blank&quot;&gt;script&lt;/a&gt; to
+choose the color of the folders.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;justify-content&quot;&gt;
+  
+  &lt;div&gt;
+    &lt;picture&gt;
+      &lt;source srcset=&quot;/images/blog-2020/my-linux-icons.webp&quot; type=&quot;image/webp&quot; /&gt;
+      &lt;img src=&quot;/images/blog-2020/my-linux-icons.jpg&quot; alt=&quot;Papirus icon theme&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;scripts&quot;&gt;Scripts&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;There is also useful scripts that I use often. I found this one on &lt;a href=&quot;https://youtu.be/XTnhg2PAllY&quot; target=&quot;\_blank&quot;&gt;Youtube&lt;/a&gt; to disable the touch of the tablet at the system startup. There is another that launches a simple app to turn on/off the touch, couldn’t find
+the link where I found it but you
+can download it below. I’ve also wrote another one the create the folder structure that I usually use for my projects.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-folder&quot;&gt;&lt;/i&gt; 00_ref&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-folder&quot;&gt;&lt;/i&gt; 01_3d&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-folder&quot;&gt;&lt;/i&gt; 00_tex&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fas fa-folder&quot;&gt;&lt;/i&gt; 00_ren&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i class=&quot;fas fa-file-download&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.dropbox.com/s/ai56ip2kcs2vr22/wacom_touch_on_off.sh?dl=1&quot;&gt;Wacom Touch Settings&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i class=&quot;fas fa-file-download&quot;&gt;&lt;/i&gt;
+&lt;a href=&quot;https://www.dropbox.com/s/spsisikuqxj4u6y/new_project.sh?dl=1&quot;&gt;Batch Project Folder&lt;/a&gt;&lt;/p&gt;</content><author><name>Lucas Falcao</name></author><summary type="html">After years using Ubuntu I decided to try another Linux distro and after try a little bit some distros from the pen drive I thought I would like more the Linux Mint with Cinnamon. I’ve been using it for almost a month now and I must say that I’m in love with Mint, the system is very simple and well polish in terms of interface and usability. It’s very customized out of the box and basically you can right click almost every place and configure the way you want.</summary></entry><entry><title type="html">Black Cat Interview</title><link href="https://lucasfalcao3d.com/blog/black-cat-interview/" rel="alternate" type="text/html" title="Black Cat Interview" /><published>2019-10-02T00:00:00-03:00</published><updated>2019-10-02T00:00:00-03:00</updated><id>https://lucasfalcao3d.com/blog/black-cat-interview</id><content type="html" xml:base="https://lucasfalcao3d.com/blog/black-cat-interview/">&lt;p&gt;Arti Sergeev from the site &lt;a href=&quot;https://80.lv/&quot; target=&quot;\_blank&quot;&gt;80 LEVEL&lt;/a&gt; wrote an interview about my last work Black Cat and it’s was published today. I talked about my workflow and shared some tips that I used on this project.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hope you like and feel free to ask any questions about it on the comments below.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;justify-content&quot;&gt;
+  &lt;div class=&quot;button&quot;&gt;
+    &lt;a href=&quot;https://80.lv/articles/making-a-black-cat-in-blender/&quot; target=&quot;_blank&quot;&gt;Check the interview
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;justify-content&quot;&gt;
+
+  &lt;div&gt;
+    &lt;picture&gt;
+      &lt;source srcset=&quot;/images/blog-2020/black-cat.webp&quot; type=&quot;image/webp&quot; /&gt;
+      &lt;img src=&quot;/images/blog-2020/black-cat.jpg&quot; alt=&quot;Black Cat Blender Shaders&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;justify-content&quot;&gt;
+
+  &lt;div&gt;
+    &lt;picture&gt;
+      &lt;source srcset=&quot;/images/blog-2020/black-cat-blocking.webp&quot; type=&quot;image/webp&quot; /&gt;
+      &lt;img src=&quot;/images/blog-2020/black-cat-blocking.jpg&quot; alt=&quot;Black Cat Blender Random Colors&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+
+  &lt;div&gt;
+    &lt;picture&gt;
+      &lt;source srcset=&quot;/images/blog-2020/black-cat-fur-shader.webp&quot; type=&quot;image/webp&quot; /&gt;
+      &lt;img src=&quot;/images/blog-2020/black-cat-fur-shader.jpg&quot; alt=&quot;Black Cat Blender Shader Nodes&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;</content><author><name>Lucas Falcao</name></author><summary type="html">Arti Sergeev from the site 80 LEVEL wrote an interview about my last work Black Cat and it’s was published today. I talked about my workflow and shared some tips that I used on this project.</summary></entry><entry><title type="html">3D Artist 133</title><link href="https://lucasfalcao3d.com/blog/3d-artist-133/" rel="alternate" type="text/html" title="3D Artist 133" /><published>2019-08-15T00:00:00-03:00</published><updated>2019-08-15T00:00:00-03:00</updated><id>https://lucasfalcao3d.com/blog/3d-artist-133</id><content type="html" xml:base="https://lucasfalcao3d.com/blog/3d-artist-133/">&lt;p&gt;Another publication featuring Bee, this time in 3D Artist issue 133.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;justify-content&quot;&gt;
+
+  &lt;div&gt;
+    &lt;picture&gt;
+      &lt;source srcset=&quot;/images/blog-2020/3d-artists-133-cover.webp&quot; type=&quot;image/webp&quot; /&gt;
+      &lt;img src=&quot;/images/blog-2020/3d-artists-133-cover.jpg&quot; alt=&quot;3D Artist Magazine, Lucas Falcao Bee publication&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;justify-content&quot;&gt;
+
+  &lt;div&gt;
+    &lt;picture&gt;
+      &lt;source srcset=&quot;/images/blog-2020/3d-artists-133-bee.webp&quot; type=&quot;image/webp&quot; /&gt;
+      &lt;img src=&quot;/images/blog-2020/3d-artists-133-bee.jpg&quot; alt=&quot;3D Artist Magazine, Lucas Falcao Bee publication&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+
+  &lt;div&gt;
+    &lt;picture&gt;
+      &lt;source srcset=&quot;/images/blog-2020/3d-artists-133-description.webp&quot; type=&quot;image/webp&quot; /&gt;
+      &lt;img src=&quot;/images/blog-2020/3d-artists-133-description.jpg&quot; alt=&quot;3D Artist Magazine, Lucas Falcao Bee publication&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;</content><author><name>Lucas Falcao</name></author><summary type="html">Another publication featuring Bee, this time in 3D Artist issue 133.</summary></entry></feed>

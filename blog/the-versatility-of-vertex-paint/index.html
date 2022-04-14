@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  <title>Lucas Falcao | The Versatility of Vertex Paint</title>
+  
+  <meta name="description" content="Article about various uses of Vertex Paint mode in Blender, for painting masks, colors and more." />
+  
+  <link href="/favicon.png" rel="icon" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+    rel="stylesheet"
+  />
+  <script
+    src="https://kit.fontawesome.com/52f44300ad.js"
+    crossorigin="anonymous"
+  ></script>
+  <link rel="stylesheet" href="/css/reset.css" />
+  <link rel="stylesheet" href="/css/main.css" />
+</head>
+
+  <body>
+    <header class="header">
+  <nav>
+    <ul id="header" class="header-nav nav-link">
+      <li><a href="/#portfolio">Work</a></li>
+<li><a href="/about">About</a></li>
+<li><a href="/blog">Blog</a></li>
+<li><a href="/contact">Contact</a></li>
+
+    </ul>
+  </nav>
+  <a href="/" class="header-logo">
+    <img src="/images/logo.png" alt="Logo" />
+  </a>
+</header>
+
+
+    <div class="content-container scroller"><article class="page">
+
+  <header>
+    <h1>The Versatility of Vertex Paint</h1>
+    <hr style="width:3em;border: 2px solid #a76dc2;margin-left:0">
+    <span class="post-date"> - October 09, 2020</span>
+
+  </header>
+
+  <br>
+  <br>
+
+
+  <div class="post-content">
+    <p>For quite some time I’ve been using Vertex Paint in probably all of my work, because it’s very handy and fast way to setup masks or basic colors, specially if you do stylized stuff. The only cons that comes to my mind is that you need your topology or vertex count to match what you want to do, but I usually don’t have any issues.</p>
+
+<p><br /></p>
+
+<p>I’ve made a post on <a href="https://twitter.com/lucasfalcao3d/status/1314273019423006721" target="\_blank">Twitter</a> to see how much people use Vertex Paint and apparently not so much people use it. So in this post I’ll show some ways that I’ve been using Vertex Paint on my work and maybe some of you will learn something new.</p>
+
+<p><br /></p>
+
+<h2 id="how-to-use">How to use</h2>
+
+<p><br /></p>
+
+<p>First let’s show how to use, because some of you may not know how to do it. When you select and object and enter in Vertex Paint mode, Blender creates a new Vertex Color channel with the name Col, that you can change to another name the represents what you are doing. You can find the Vertex Colors channels on the Object Data Properties. After enter the Vertex Paint mode you just need to paint on your model whatever you want to do, very handy isn’t?</p>
+
+<p><br /></p>
+
+<div class="justify-content">
+
+  <div>
+    <picture>
+      <source srcset="/images/blog-2020/vertex-paint-01.webp" type="image/webp" />
+      <img src="/images/blog-2020/vertex-paint-01.jpg" alt="3D Artist Magazine, Lucas Falcao Bee publication" />
+    </picture>
+  </div>
+
+</div>
+
+<p><br /></p>
+
+<p>Then to actully use it on your render, you need to add the Vertex Color channel on the Shader Editor, using the shortcut Shift+A &gt; Input &gt; Vertex Color.</p>
+
+<p><br /></p>
+
+<div class="justify-content">
+
+  <div>
+    <picture>
+      <source srcset="/images/blog-2020/vertex-paint-02.webp" type="image/webp" />
+      <img src="/images/blog-2020/vertex-paint-02.jpg" alt="3D Artist Magazine, Lucas Falcao Bee publication" />
+    </picture>
+  </div>
+
+</div>
+
+<p><br /></p>
+
+<h2 id="base-colors">Base Colors</h2>
+
+<p><br /></p>
+
+<p>The first way I wanna mention it’s for painting Base Colors, this works better if you have a more dense mesh, but it can also work with resonable low poly meshes. You can use the Blur brush to soften the colors or you can click on the Paint menu at the top of viewport and choose Smooth Vertex Colors. If you want a sharp interpolation on the colors, like I did on the eyes, you can make a selection in Edit Mode and then go back to Vertex Paint mode, click on the button Paint Mask and on the Paint menu choose Set Vertex Colors.</p>
+
+<p><br /></p>
+
+<div class="justify-content">
+
+  <div>
+    <picture>
+      <source srcset="/images/blog-2020/vertex-paint-base-colors.webp" type="image/webp" />
+      <img src="/images/blog-2020/vertex-paint-base-colors.jpg" alt="3D Artist Magazine, Lucas Falcao Bee publication" />
+    </picture>
+  </div>
+
+</div>
+
+<p><br /></p>
+
+<h2 id="masks">Masks</h2>
+
+<p><br /></p>
+
+<p>Another way that I use Vertex Paint is to create grayscale or RGB masks to blend or separate textures and shaders. To create a mask I usually make a selection in Edit Mode, back to Vertex Paint, enable the Paint Mask that I mentioned before and then I click on the Paint menu and choose Set Vertex Colors. And I usually use the Smooth Vertex Colors on the mask, this way I can use a ColorRamp on the Shader Editor and control there if I want a more sharpen mask or not.</p>
+
+<p><br /></p>
+
+<div class="justify-content">
+
+  <div>
+    <picture>
+      <source srcset="/images/blog-2020/vertex-paint-mask.webp" type="image/webp" />
+      <img src="/images/blog-2020/vertex-paint-mask.jpg" alt="3D Artist Magazine, Lucas Falcao Bee publication" />
+    </picture>
+  </div>
+
+</div>
+
+<p><br /></p>
+
+<h2 id="roughness">Roughness</h2>
+
+<p><br /></p>
+
+<p>If you are a little bit lazy like me, you can even do a kind of Roughness map in just like one click. For that you need to enter in Vertex Paint mode, paint your model with a white color and then click on the Paint menu and choose Dirty Vertex Colors. In the Shader Editor you can use a ColorRamp to adjust the values and achive the Roughness result you want.</p>
+
+<p><br /></p>
+
+<div class="justify-content">
+
+  <div>
+    <picture>
+      <source srcset="/images/blog-2020/vertex-paint-roughness.webp" type="image/webp" />
+      <img src="/images/blog-2020/vertex-paint-roughness.jpg" alt="3D Artist Magazine, Lucas Falcao Bee publication" />
+    </picture>
+  </div>
+
+</div>
+
+<p><br /></p>
+
+<h2 id="subsurface">Subsurface</h2>
+
+<p><br /></p>
+
+<p>The last use that I wanna mention it’s to create a Subsurface Factor mask, this way you can control how much Subsurface you want for different parts, instead of choosing a single value for the entire model. I paint this mask in black and white values and then in the Shader Editor I plug it in a ColorRamp and tweak to values until I achieve the result I was looking for.</p>
+
+<p><br /></p>
+
+<div class="justify-content">
+
+  <div>
+    <picture>
+      <source srcset="/images/blog-2020/vertex-paint-sss.webp" type="image/webp" />
+      <img src="/images/blog-2020/vertex-paint-sss.jpg" alt="3D Artist Magazine, Lucas Falcao Bee publication" />
+    </picture>
+  </div>
+
+</div>
+
+<p><br /></p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p><br /></p>
+
+<p>These are very simple tips, I’ve never seen those uses of Vertex Paint on a tutorial on the internet, so I hope it helps some of you that are reading this to improve your work quality or at least get it done faster. These tips works even better if you mixing with procedural or tileable textures.</p>
+
+<p><br /></p>
+
+<p>Anyway hope you enjoyed the tips and if you have any question feel free to leave me a message on <a href="https://twitter.com/lucasfalcao3d" target="\_blank">Twitter</a> or send me an <a href="/contact">Email</a>.</p>
+
+  </div>
+
+  <br>
+  <br>
+
+  <div class="justify-content">
+
+  <div class="back-to">
+    <a href=" /blog">
+    <i class="fas fa-angle-left"></i> Back to Blog</a>
+  </div>
+
+  </div>
+
+
+</article>
+</div>
+
+    <footer class="footer">
+
+  <ul class="social-links">
+
+    <li>
+      <a href="https://www.artstation.com/lucasfalcao3d" target="_blank" rel=noopener>
+        <i class="fab fa-artstation"></i>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://twitter.com/lucasfalcao3d" target="_blank" rel=noopener>
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://www.instagram.com/lucasfalcao3d/" target="_blank" rel=noopener>
+        <i class="fab fa-instagram"></i>
+      </a>
+    </li>
+
+    <li><a href="https://www.facebook.com/lucasfalcao3d" target="_blank" rel=noopener>
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+
+  </ul>
+
+  <a class="footer-logo" href="#header">
+    <img src="/images/arrow-up.png" alt="Logo">
+  </a>
+
+</footer>
+
+  </body>
+</html>

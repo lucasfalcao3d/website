@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  <title>Lucas Falcao | My Linux Setup</title>
+  
+  <meta name="description" content="Article about my Linux Mint setup as a freelance 3d artist." />
+  
+  <link href="/favicon.png" rel="icon" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+    rel="stylesheet"
+  />
+  <script
+    src="https://kit.fontawesome.com/52f44300ad.js"
+    crossorigin="anonymous"
+  ></script>
+  <link rel="stylesheet" href="/css/reset.css" />
+  <link rel="stylesheet" href="/css/main.css" />
+</head>
+
+  <body>
+    <header class="header">
+  <nav>
+    <ul id="header" class="header-nav nav-link">
+      <li><a href="/#portfolio">Work</a></li>
+<li><a href="/about">About</a></li>
+<li><a href="/blog">Blog</a></li>
+<li><a href="/contact">Contact</a></li>
+
+    </ul>
+  </nav>
+  <a href="/" class="header-logo">
+    <img src="/images/logo.png" alt="Logo" />
+  </a>
+</header>
+
+
+    <div class="content-container scroller"><article class="page">
+
+  <header>
+    <h1>My Linux Setup</h1>
+    <hr style="width:3em;border: 2px solid #a76dc2;margin-left:0">
+    <span class="post-date"> - January 25, 2020</span>
+
+  </header>
+
+  <br>
+  <br>
+
+
+  <div class="post-content">
+    <p>After years using <a href="https://ubuntu.com/" target="\_blank">Ubuntu</a> I decided to try another Linux distro and after try a little bit some distros from the pen drive I thought I would like more the <a href="https://linuxmint.com/" target="\_blank">Linux Mint with Cinnamon</a>. I’ve been using it
+for almost a month now and I must say that I’m in love with Mint, the system is very simple and well polish in terms of interface and usability. It’s very customized out of the box and basically you can right click almost every place and configure
+the way you want.</p>
+
+<p>So in this post I’ll share some tips and tools that I’ve been using on my daily work.</p>
+
+<p><br /></p>
+
+<div class="justify-content">
+
+  <div>
+    <picture>
+      <source srcset="/images/blog-2020/my-linux-desktop.webp" type="image/webp" />
+      <img src="/images/blog-2020/my-linux-desktop.jpg" alt="My Desktop using Linux Mint" />
+    </picture>
+  </div>
+
+</div>
+
+<p><br /></p>
+
+<h2 id="partitions">Partitions</h2>
+
+<p><br /></p>
+
+<p>My install partitions are the following ones.</p>
+
+<ul>
+  <li>/ – 40 GB</li>
+  <li>/home – 190 GB</li>
+  <li>Swap – 8 GB</li>
+</ul>
+
+<p>I used to use 25 GB for the root and usually is more than enough, but I had a problem with a cache folder that was setup in the tmp inside the root, the generated files in that cache filled the system partition, froze the computer and for some reason
+the booting stopped working. So after that I always use some extra space for the system partition.</p>
+
+<p><br /></p>
+
+<h2 id="apps">Apps</h2>
+
+<p><br /></p>
+
+<p>Here is the list of apps that I’ve use almost everyday.</p>
+
+<ul>
+  <li><a href="https://www.blender.org/" target="\_blank">Blender</a> – The most amazing 3D software of the world. :B</li>
+  <li><a href="https://www.pureref.com/" target="\_blank">PureRef</a> – Great to make reference boards.</li>
+  <li><a href="https://www.notion.so/" target="\_blank">Notion</a> – Really great for management.</li>
+  <li><a href="https://github.com/phw/peek" target="\_blank">Peek</a> – Good and simple app to record gifs and videos from your screen.</li>
+  <li>GNOME Screenshot – This is just a default app that comes with Mint.</li>
+  <li>Gnome Pomodoro – App for time management and productivity.</li>
+  <li>WhatsApp – To spread fake news and cat gifs.</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="icons">Icons</h2>
+
+<p><br /></p>
+
+<p>For the icons I choose the <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme" target="\_blank">Papirus icon theme</a>, because I like simple flat looking icons and there is icon for pretty much every application out there. You can also use this
+<a href="https://github.com/PapirusDevelopmentTeam/papirus-folders" target="\_blank">script</a> to
+choose the color of the folders.</p>
+
+<p><br /></p>
+
+<div class="justify-content">
+  
+  <div>
+    <picture>
+      <source srcset="/images/blog-2020/my-linux-icons.webp" type="image/webp" />
+      <img src="/images/blog-2020/my-linux-icons.jpg" alt="Papirus icon theme" />
+    </picture>
+  </div>
+
+</div>
+
+<p><br /></p>
+
+<h2 id="scripts">Scripts</h2>
+
+<p><br /></p>
+
+<p>There is also useful scripts that I use often. I found this one on <a href="https://youtu.be/XTnhg2PAllY" target="\_blank">Youtube</a> to disable the touch of the tablet at the system startup. There is another that launches a simple app to turn on/off the touch, couldn’t find
+the link where I found it but you
+can download it below. I’ve also wrote another one the create the folder structure that I usually use for my projects.</p>
+
+<p><br /></p>
+
+<ul>
+  <li><i class="fas fa-folder"></i> 00_ref</li>
+  <li><i class="fas fa-folder"></i> 01_3d</li>
+  <li><i class="fas fa-folder"></i> 00_tex</li>
+  <li><i class="fas fa-folder"></i> 00_ren</li>
+</ul>
+
+<p><br /></p>
+
+<p><i class="fas fa-file-download"></i> <a href="https://www.dropbox.com/s/ai56ip2kcs2vr22/wacom_touch_on_off.sh?dl=1">Wacom Touch Settings</a></p>
+
+<p><i class="fas fa-file-download"></i>
+<a href="https://www.dropbox.com/s/spsisikuqxj4u6y/new_project.sh?dl=1">Batch Project Folder</a></p>
+
+  </div>
+
+  <br>
+  <br>
+
+  <div class="justify-content">
+
+  <div class="back-to">
+    <a href=" /blog">
+    <i class="fas fa-angle-left"></i> Back to Blog</a>
+  </div>
+
+  </div>
+
+
+</article>
+</div>
+
+    <footer class="footer">
+
+  <ul class="social-links">
+
+    <li>
+      <a href="https://www.artstation.com/lucasfalcao3d" target="_blank" rel=noopener>
+        <i class="fab fa-artstation"></i>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://twitter.com/lucasfalcao3d" target="_blank" rel=noopener>
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://www.instagram.com/lucasfalcao3d/" target="_blank" rel=noopener>
+        <i class="fab fa-instagram"></i>
+      </a>
+    </li>
+
+    <li><a href="https://www.facebook.com/lucasfalcao3d" target="_blank" rel=noopener>
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+
+  </ul>
+
+  <a class="footer-logo" href="#header">
+    <img src="/images/arrow-up.png" alt="Logo">
+  </a>
+
+</footer>
+
+  </body>
+</html>
