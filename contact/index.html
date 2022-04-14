@@ -94,46 +94,32 @@
         
         <br />
 
+        <input class="email-input" style="display: none;" type="text" value="hey@lucasfalcao3d.com" id="myInput">
+        <button class="email-copy-button" onclick="myFunction()" id="copytooltip"><i class="fas fa-copy"></i> hey@lucasfalcao3d.com</button>
 
-        <input
-          class="email-input"
-          id="myemail"
-          value="hey@lucasfalcao3d.com"
-          readonly
-        />
-    
-        <button class="email-copy-button" onclick="myFunction()" id="copytooltip">
-          <i class="fas fa-copy"></i> <span>&#8203;</span> <span>&#8203;</span> hey@lucasfalcao3d.com
-        </button>
-    
-        <script type="text/javascript">
-          function myFunction() {
-            /* Get the text field */
-            var copyText = document.getElementById('myemail');
-    
-            /* Select the text field */
-            copyText.select();
-            copyText.setSelectionRange(0, 99999); /*For mobile devices*/
-    
-            /* Copy the text inside the text field */
-            document.execCommand('Copy');
-    
-            /* Change the text inside button */
-            var tooltip = document.getElementById('copytooltip');
-            tooltip.innerHTML = '<i class="fas fa-clipboard"></i> <span>&#8203;</span> <span>&#8203;</span> <span>&#8203;</span> Email copied! <span>&#8203;</span> <span>&#8203;</span> <span>&#8203;</span>';
-          }
+        <script>
+        function myFunction() {
+          /* Get the text field */
+          var copyText = document.getElementById("myInput");
+
+          /* Select the text field */
+          copyText.select();
+          copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+          /* Copy the text inside the text field */
+          navigator.clipboard.writeText(copyText.value);
+          
+          var tooltip = document.getElementById('copytooltip');
+          tooltip.innerHTML = '<i class="fas fa-clipboard"></i> Email copied!'; 
+          
+        }
         </script>
+
       </div>
 
      </div>
 
   </div>
-
-
-
- 
-  
- 
 
 </div>
 </div>
