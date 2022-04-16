@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://lucasfalcao3d.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://lucasfalcao3d.com/" rel="alternate" type="text/html" /><updated>2022-04-14T15:30:48-03:00</updated><id>https://lucasfalcao3d.com/feed.xml</id><title type="html">Lucas Falcao, 3d Artist</title><author><name>Lucas Falcao</name></author><entry><title type="html">A More Efficient Keymap for Modeling</title><link href="https://lucasfalcao3d.com/blog/blender-keymap/" rel="alternate" type="text/html" title="A More Efficient Keymap for Modeling" /><published>2020-12-19T00:00:00-03:00</published><updated>2020-12-19T00:00:00-03:00</updated><id>https://lucasfalcao3d.com/blog/blender-keymap</id><content type="html" xml:base="https://lucasfalcao3d.com/blog/blender-keymap/">&lt;p&gt;The main goal of this keymap change is to make Blender’s keymap even more consistent and efficient, specially for modelers, I’ve tried to change the shortcuts in a way that matches the action or the tool that I’m using.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://lucasfalcao3d.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://lucasfalcao3d.com/" rel="alternate" type="text/html" /><updated>2022-04-16T15:53:18-03:00</updated><id>https://lucasfalcao3d.com/feed.xml</id><title type="html">Lucas Falcao, 3d Artist</title><author><name>Lucas Falcao</name></author><entry><title type="html">Free Vegan Pizza</title><link href="https://lucasfalcao3d.com/blog/vegan-pizza/" rel="alternate" type="text/html" title="Free Vegan Pizza" /><published>2022-04-16T00:00:00-03:00</published><updated>2022-04-16T00:00:00-03:00</updated><id>https://lucasfalcao3d.com/blog/vegan-pizza</id><content type="html" xml:base="https://lucasfalcao3d.com/blog/vegan-pizza/">&lt;p&gt;From now on I’ll try to share for free more blend files of assets from my personal works. I’ve learned so much from files from other artists when I started, so it’s about time to do the same and help other fellow artists.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;justify-content&quot;&gt; 
+
+  &lt;div class=&quot;button&quot;&gt;
+    &lt;a href=&quot;https://lucasfalcao3d.gumroad.com/l/vegan-pizza&quot; target=&quot;_blank&quot;&gt; Download the .blend&lt;/a&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;justify-content&quot;&gt;
+
+  &lt;div&gt;
+    &lt;picture&gt;
+      &lt;source srcset=&quot;/images/blog-2022/vegan-pizza-01.webp&quot; type=&quot;image/webp&quot; /&gt;
+      &lt;img src=&quot;/images/blog-2022/vegan-pizza-01.jpg&quot; alt=&quot;Blog post about free .blend file of a vegan pizza&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;justify-content&quot;&gt;
+
+  &lt;div&gt;
+    &lt;picture&gt;
+      &lt;source srcset=&quot;/images/blog-2022/vegan-pizza-02.webp&quot; type=&quot;image/webp&quot; /&gt;
+      &lt;img src=&quot;/images/blog-2022/vegan-pizza-02.jpg&quot; alt=&quot;Blog post about free .blend file of a vegan pizza&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+
+  &lt;div&gt;
+    &lt;picture&gt;
+      &lt;source srcset=&quot;/images/blog-2022/vegan-pizza-03.webp&quot; type=&quot;image/webp&quot; /&gt;
+      &lt;img src=&quot;/images/blog-2022/vegan-pizza-03.jpg&quot; alt=&quot;Blog post about free .blend file of a vegan pizza&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;justify-content&quot;&gt;
+
+  &lt;div&gt;
+    &lt;picture&gt;
+      &lt;source srcset=&quot;/images/blog-2022/vegan-pizza-04.webp&quot; type=&quot;image/webp&quot; /&gt;
+      &lt;img src=&quot;/images/blog-2022/vegan-pizza-04.jpg&quot; alt=&quot;Blog post about free .blend file of a vegan pizza&quot; /&gt;
+    &lt;/picture&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;</content><author><name>Lucas Falcao</name></author><summary type="html">From now on I’ll try to share for free more blend files of assets from my personal works. I’ve learned so much from files from other artists when I started, so it’s about time to do the same and help other fellow artists.</summary></entry><entry><title type="html">A More Efficient Keymap for Modeling</title><link href="https://lucasfalcao3d.com/blog/blender-keymap-copy/" rel="alternate" type="text/html" title="A More Efficient Keymap for Modeling" /><published>2020-12-19T00:00:00-03:00</published><updated>2020-12-19T00:00:00-03:00</updated><id>https://lucasfalcao3d.com/blog/blender-keymap%20copy</id><content type="html" xml:base="https://lucasfalcao3d.com/blog/blender-keymap-copy/">&lt;p&gt;The main goal of this keymap change is to make Blender’s keymap even more consistent and efficient, specially for modelers, I’ve tried to change the shortcuts in a way that matches the action or the tool that I’m using.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -402,11 +454,11 @@ versions.&lt;/p&gt;
 &lt;div class=&quot;justify-content&quot;&gt;
 
   &lt;div class=&quot;button&quot;&gt;
-    &lt;a href=&quot;https://www.blendermarket.com/products/auto-eye &quot;&gt;Blender Market&lt;/a&gt;
+    &lt;a href=&quot;https://www.blendermarket.com/products/auto-eye &quot; target=&quot;_blank&quot;&gt;Blender Market&lt;/a&gt;
   &lt;/div&gt;
 
   &lt;div class=&quot;button&quot;&gt;
-    &lt;a href=&quot;https://gumroad.com/l/auto-eye&quot;&gt;
+    &lt;a href=&quot;https://gumroad.com/l/auto-eye&quot; target=&quot;_blank&quot;&gt;
       Gumroad&lt;/a&gt;
   &lt;/div&gt;
 
@@ -619,35 +671,4 @@ can download it below. I’ve also wrote another one the create the folder struc
     &lt;/picture&gt;
   &lt;/div&gt;
 
-&lt;/div&gt;</content><author><name>Lucas Falcao</name></author><summary type="html">Arti Sergeev from the site 80 LEVEL wrote an interview about my last work Black Cat and it’s was published today. I talked about my workflow and shared some tips that I used on this project.</summary></entry><entry><title type="html">3D Artist 133</title><link href="https://lucasfalcao3d.com/blog/3d-artist-133/" rel="alternate" type="text/html" title="3D Artist 133" /><published>2019-08-15T00:00:00-03:00</published><updated>2019-08-15T00:00:00-03:00</updated><id>https://lucasfalcao3d.com/blog/3d-artist-133</id><content type="html" xml:base="https://lucasfalcao3d.com/blog/3d-artist-133/">&lt;p&gt;Another publication featuring Bee, this time in 3D Artist issue 133.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;justify-content&quot;&gt;
-
-  &lt;div&gt;
-    &lt;picture&gt;
-      &lt;source srcset=&quot;/images/blog-2020/3d-artists-133-cover.webp&quot; type=&quot;image/webp&quot; /&gt;
-      &lt;img src=&quot;/images/blog-2020/3d-artists-133-cover.jpg&quot; alt=&quot;3D Artist Magazine, Lucas Falcao Bee publication&quot; /&gt;
-    &lt;/picture&gt;
-  &lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;div class=&quot;justify-content&quot;&gt;
-
-  &lt;div&gt;
-    &lt;picture&gt;
-      &lt;source srcset=&quot;/images/blog-2020/3d-artists-133-bee.webp&quot; type=&quot;image/webp&quot; /&gt;
-      &lt;img src=&quot;/images/blog-2020/3d-artists-133-bee.jpg&quot; alt=&quot;3D Artist Magazine, Lucas Falcao Bee publication&quot; /&gt;
-    &lt;/picture&gt;
-  &lt;/div&gt;
-
-  &lt;div&gt;
-    &lt;picture&gt;
-      &lt;source srcset=&quot;/images/blog-2020/3d-artists-133-description.webp&quot; type=&quot;image/webp&quot; /&gt;
-      &lt;img src=&quot;/images/blog-2020/3d-artists-133-description.jpg&quot; alt=&quot;3D Artist Magazine, Lucas Falcao Bee publication&quot; /&gt;
-    &lt;/picture&gt;
-  &lt;/div&gt;
-
-&lt;/div&gt;</content><author><name>Lucas Falcao</name></author><summary type="html">Another publication featuring Bee, this time in 3D Artist issue 133.</summary></entry></feed>
+&lt;/div&gt;</content><author><name>Lucas Falcao</name></author><summary type="html">Arti Sergeev from the site 80 LEVEL wrote an interview about my last work Black Cat and it’s was published today. I talked about my workflow and shared some tips that I used on this project.</summary></entry></feed>
